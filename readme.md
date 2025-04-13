@@ -1,6 +1,6 @@
 # MySQL
 
-**Creación de bases de datos relacionales en MySQL:**  
+**La creacion de las bases de datos fue pensando en lo que vivimos dia a dia, desde comprar en una simple tienda hasta administrar un colegio, Creación de bases de datos relacionales en MySQL:**  
 `libraryDB`, `school_management` y `store_db`.
 
 ---

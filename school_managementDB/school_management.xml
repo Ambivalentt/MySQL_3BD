@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Martin</Author>
+  <LastAuthor>Martin</LastAuthor>
+  <Created>2025-04-13T08:04:47Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11865</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="110.25" ss:Span="4"/>
+   <Row>
+    <Cell><Data ss:Type="String">Columna1</Data></Cell>
+    <Cell><Data ss:Type="String">Columna2</Data></Cell>
+    <Cell><Data ss:Type="String">Columna3</Data></Cell>
+    <Cell><Data ss:Type="String">Columna4</Data></Cell>
+    <Cell><Data ss:Type="String">Columna5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tabla</Data></Cell>
+    <Cell><Data ss:Type="String">Campo</Data></Cell>
+    <Cell><Data ss:Type="String">Tipo de Dato</Data></Cell>
+    <Cell><Data ss:Type="String">Nulo</Data></Cell>
+    <Cell><Data ss:Type="String">Clave</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">assignments</Data></Cell>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">assignments</Data></Cell>
+    <Cell><Data ss:Type="String">course_id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">MUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">assignments</Data></Cell>
+    <Cell><Data ss:Type="String">title</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(100)</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">assignments</Data></Cell>
+    <Cell><Data ss:Type="String">description</Data></Cell>
+    <Cell><Data ss:Type="String">text</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">assignments</Data></Cell>
+    <Cell><Data ss:Type="String">due_date</Data></Cell>
+    <Cell><Data ss:Type="String">date</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">courses</Data></Cell>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">courses</Data></Cell>
+    <Cell><Data ss:Type="String">course_name</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(100)</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">courses</Data></Cell>
+    <Cell><Data ss:Type="String">description_text</Data></Cell>
+    <Cell><Data ss:Type="String">text</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">courses</Data></Cell>
+    <Cell><Data ss:Type="String">profressor_id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">MUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">enrollments</Data></Cell>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">enrollments</Data></Cell>
+    <Cell><Data ss:Type="String">user_id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">MUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">enrollments</Data></Cell>
+    <Cell><Data ss:Type="String">course_id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">MUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">enrollments</Data></Cell>
+    <Cell><Data ss:Type="String">enrollment_date</Data></Cell>
+    <Cell><Data ss:Type="String">timestamp</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">grades</Data></Cell>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">grades</Data></Cell>
+    <Cell><Data ss:Type="String">submission_id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">MUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">grades</Data></Cell>
+    <Cell><Data ss:Type="String">grade</Data></Cell>
+    <Cell><Data ss:Type="String">decimal(4,2)</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">grades</Data></Cell>
+    <Cell><Data ss:Type="String">feedback</Data></Cell>
+    <Cell><Data ss:Type="String">text</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">submissions</Data></Cell>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">submissions</Data></Cell>
+    <Cell><Data ss:Type="String">assignment_id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">MUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">submissions</Data></Cell>
+    <Cell><Data ss:Type="String">student_id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String">MUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">submissions</Data></Cell>
+    <Cell><Data ss:Type="String">submission_date</Data></Cell>
+    <Cell><Data ss:Type="String">timestamp</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">submissions</Data></Cell>
+    <Cell><Data ss:Type="String">content</Data></Cell>
+    <Cell><Data ss:Type="String">text</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">users</Data></Cell>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">int</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">PRI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">users</Data></Cell>
+    <Cell><Data ss:Type="String">first_name</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(100)</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">users</Data></Cell>
+    <Cell><Data ss:Type="String">last_name</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(100)</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">users</Data></Cell>
+    <Cell><Data ss:Type="String">email_address</Data></Cell>
+    <Cell><Data ss:Type="String">varchar(100)</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String">UNI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">users</Data></Cell>
+    <Cell><Data ss:Type="String">rol</Data></Cell>
+    <Cell><Data ss:Type="String">enum('estudiante','profesor')</Data></Cell>
+    <Cell><Data ss:Type="String">NO</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">users</Data></Cell>
+    <Cell><Data ss:Type="String">registration_date</Data></Cell>
+    <Cell><Data ss:Type="String">timestamp</Data></Cell>
+    <Cell><Data ss:Type="String">YES</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>23</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
